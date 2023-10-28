@@ -1,15 +1,15 @@
 from flask import Flask, Blueprint
-from students_api import students_api
-from teachers_api import teachers_api
-from subjects_api import subjects_api
-from programs_courses_api import programs_courses_api
-from enrollments_api import enrollments_api
-from communication_logs_api import communication_logs_api
-from admission_decisions_api import admission_decisions_api
-from prospective_students_api import prospective_students_api
-from events_activities_api import events_activities_api
-from document_management_api import document_management_api
-from users_api import users_api
+from students import students_api
+from teachers import teachers_api
+from subjects import subjects_api
+from programs_courses import programs_courses_api
+from enrollments import enrollments_api
+from communication_logs import communication_logs_api
+from admission_decisions import admission_decisions_api
+from prospective_students import prospective_students_api
+from events_activities import events_activities_api
+from document_management import document_management_api
+from users import users_api
 
 app = Flask(__name__)
 
