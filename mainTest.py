@@ -19,7 +19,7 @@ class TestMainAPI(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_programs_courses_api(self):
-        response = self.app.get('/programs-courses')
+        response = self.app.get('/programs_courses')
         self.assertEqual(response.status_code, 200)
 
     def test_enrollments_api(self):
@@ -27,23 +27,23 @@ class TestMainAPI(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_communication_logs_api(self):
-        response = self.app.get('/communication-logs')
+        response = self.app.get('/communication_logs')
         self.assertEqual(response.status_code, 200)
 
     def test_admission_decisions_api(self):
-        response = self.app.get('/admission-decisions')
+        response = self.app.get('/admission_decisions')
         self.assertEqual(response.status_code, 200)
 
     def test_prospective_students_api(self):
-        response = self.app.get('/prospective-students')
+        response = self.app.get('/prospective_students')
         self.assertEqual(response.status_code, 200)
 
     def test_events_activities_api(self):
-        response = self.app.get('/events-activities')
+        response = self.app.get('/events_activities')
         self.assertEqual(response.status_code, 200)
 
     def test_document_management_api(self):
-        response = self.app.get('/document-management')
+        response = self.app.get('/document_management')
         self.assertEqual(response.status_code, 200)
 
     def test_users_api(self):
