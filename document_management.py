@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, send_file
 import sqlite3
 import json
 
-app = Flask(__name__)
+app = Flask('document_management',__name__)
 
 def connect_to_database():
     try:

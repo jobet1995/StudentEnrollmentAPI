@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import sqlite3
 
-app = Flask(__name__)
+app = Flask('enrollments',__name__)
 
 def connect_to_database():
     try:
@@ -14,7 +14,7 @@ def connect_to_database():
 class EnrollmentResource:
     def get(self, enrollment_id):
         try:
-            conn = connect_to the database()
+            conn = connect_to_database()
             if conn:
                 cursor = conn.cursor()
                 cursor.execute('SELECT * FROM enrollments WHERE id = ?', (enrollment_id,))

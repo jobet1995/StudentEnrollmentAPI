@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify
 import sqlite3
 
-app = Flask(__name__)
+app = Flask('teachers',__name__)
 
 def connect_to_database():
     try:
