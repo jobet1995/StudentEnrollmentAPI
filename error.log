@@ -1,0 +1,12 @@
+[2023-10-28 08:35:14 +0000] [4957] [INFO] Starting gunicorn 21.2.0
+[2023-10-28 08:35:14 +0000] [4957] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-10-28 08:35:14 +0000] [4957] [ERROR] Retrying in 1 second.
+[2023-10-28 08:35:15 +0000] [4957] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-10-28 08:35:15 +0000] [4957] [ERROR] Retrying in 1 second.
+[2023-10-28 08:35:16 +0000] [4957] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-10-28 08:35:16 +0000] [4957] [ERROR] Retrying in 1 second.
+[2023-10-28 08:35:17 +0000] [4957] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-10-28 08:35:17 +0000] [4957] [ERROR] Retrying in 1 second.
+[2023-10-28 08:35:18 +0000] [4957] [ERROR] Connection in use: ('0.0.0.0', 5000)
+[2023-10-28 08:35:18 +0000] [4957] [ERROR] Retrying in 1 second.
+[2023-10-28 08:35:19 +0000] [4957] [ERROR] Can't connect to ('0.0.0.0', 5000)
