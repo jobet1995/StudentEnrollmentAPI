@@ -106,16 +106,15 @@ class StudentsResource:
 students_resource = StudentsResource()
 
 
-
-@app.route('/students/<int:student_id>', methods=['GET'])
+@app.route('/students/<path:filename>', methods=['GET'])
 def get_student(student_id):
     return students_resource.get(student_id)
 
-@app.route('/students/<int:student_id>', methods=['PUT'])
+@app.route('/students/<path:filename>', methods=['PUT'])
 def update_student(student_id):
     return students_resource.put(student_id)
 
-@app.route('/students/<int:student_id>', methods=['DELETE'])
+@app.route('/students/<path:filename>', methods=['DELETE'])
 def delete_student(student_id):
     return students_resource.delete(student_id)
 
